@@ -22,7 +22,7 @@ public class Obubble {
 		/*for(i=0;i<tam;i++) {
 			System.out.println(arr[i]);
 		}*/ 
-		//Se Quiser imprimir os dados
+		//Se quiser imprimir os dados
 		return "--------------------------" + "\n" + "Tempo da Ordenação:" + String.format(" %.3fs", tempoFinal) + "\n"
 				+ "--------------------------\nNumero de trocas:" + String.format("%.0f", cont) + "\n"
 				+ "--------------------------";
