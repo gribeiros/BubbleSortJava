@@ -18,7 +18,15 @@ public class Obubble {
 				}
 			}
 		}
-		double tempoFinal = (double)(System.currentTimeMillis() - tempoInicial)/1000;
-		return "--------------------------"+"\n"+"Tempo da Ordenação:" + String.format(" %.3fs",tempoFinal)+"\n"+"--------------------------\nNumero de trocas:" + String.format("%.0f",cont)+"\n"+"--------------------------";
+		double tempoFinal = (double) (System.currentTimeMillis() - tempoInicial) / 1000;
+		/*for(i=0;i<tam;i++) {
+			System.out.println(arr[i]);
+		}*/ 
+		//Se Quiser imprimir os dados
+		return "--------------------------" + "\n" + "Tempo da Ordenação:" + String.format(" %.3fs", tempoFinal) + "\n"
+				+ "--------------------------\nNumero de trocas:" + String.format("%.0f", cont) + "\n"
+				+ "--------------------------";
 	}
+	
+	
 }

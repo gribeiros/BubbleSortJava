@@ -1,4 +1,4 @@
-package Program;
+package application;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class Program {
 		Obubble bubble = new Obubble();
 		
 		Integer[] numero = new Integer[100000];
-		int a,tDados = 100000;
+		int a,tDados = 30;
 		for (a = 0; a < tDados; a++) {
 			numero[a] = rand.nextInt(101);
 		}
